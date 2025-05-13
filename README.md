@@ -69,4 +69,27 @@ python src/app.py
 - Upload a brain MRI scan.
 - View classification result, segmentation mask, and AI-generated report.
 
-  
+## Contributing
+1. Fork the repository.
+2. Create a feature branch:
+```text
+git checkout -b feature/your-feature-name
+```
+3. Commit your changes:
+```text
+git commit -m "Add [short description of feature]"
+```
+4. Push to your fork and open a Pull Request.
+
+Please ensure that:
+- Code follows PEP8 style conventions.
+- Public APIs are documented with docstrings.
+- New features include appropriate unit tests.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+Tianshuai Gao
+- Email: tg2935@columbia.edu
+- GitHub: tianshuai-gao/E6895-AIM
