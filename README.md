@@ -71,6 +71,11 @@ python src/app.py
 - Upload a brain MRI scan.
 - View classification result, segmentation mask, and AI-generated report.
 
+## Screenshots & Diagrams
+### 1. Classification Pipeline
+![Classification Pipeline](images/classification_pipeline.png)
+
+
 ## Contributing
 1. Fork the repository.
 2. Create a feature branch:
