@@ -1,4 +1,49 @@
-# AI-Powered-Radiology-Assistant
+# AI-Powered Radiology Assistant
+
+![Architecture Overview](images/architecture_overview.png)
+
+An end-to-end system that automates brain tumor diagnosis from MRI scans by combining deep learning for image analysis (classification + segmentation) with a fine-tuned LLaMA language model for structured report generation.
+
+---
+
+## 🚀 Features
+
+- **Tumor Classification**: TransUNet-based CNN + Transformer to detect and categorize tumors into four classes (No Tumor, Glioma, Meningioma, Pituitary).  
+- **Tumor Segmentation**: 2D U-Net to generate precise binary masks of tumor regions.  
+- **Structured Report Generation**: LoRA-fine-tuned LLaMA pipeline with prompt engineering (few-shot, instruction-based, role-based) to produce Findings, Risk Assessment, and Treatment Recommendations.  
+- **Lightweight Deployment**: 4-bit quantized Llama, modular codebase, Gradio interface for interactive use.  
+
+---
+
+## 📂 Repository Structure
+
+```text
+AI-Powered-Radiology-Assistant/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+├── download_weights.py      # Auto-download script for model weights
+├── src/
+│   ├── __init__.py
+│   ├── app.py               # Gradio frontend & main pipeline
+│   ├── utils.py             # Model loaders and helpers
+│   ├── classification/      # Tumor classification module
+│   │   ├── __init__.py
+│   │   └── transunet.py     # TransUNetClassifier
+│   ├── segmentation/        # Tumor segmentation module
+│   │   ├── __init__.py
+│   │   └── unet.py          # U-Net definition + metrics
+│   └── report/              # LLM report generation
+│       ├── __init__.py
+│       └── generator.py     # MRI report functions
+└── notebooks/               # Jupyter notebooks for training & experiments
+    ├── Tumor_Classification_Transunet_code.ipynb
+    ├── Tumor_Segmentation_code.ipynb
+    ├── Generate_Reports.ipynb
+    ├── LLM_Train_Model.ipynb
+    └── Model_Performance_Comparison.ipynb
+
 
 ```text
 AI-Powered-Radiology-Assistant/
