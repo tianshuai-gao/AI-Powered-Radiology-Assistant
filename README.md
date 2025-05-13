@@ -1,7 +1,5 @@
 # AI-Powered Radiology Assistant
 
-![Architecture Overview](images/architecture_overview.png)
-
 An end-to-end system that automates brain tumor diagnosis from MRI scans by combining deep learning for image analysis (classification + segmentation) with a fine-tuned LLaMA language model for structured report generation.
 
 ---
