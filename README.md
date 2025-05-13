@@ -23,34 +23,6 @@ AI-Powered-Radiology-Assistant/
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
-├── download_weights.py      # Auto-download script for model weights
-├── src/
-│   ├── __init__.py
-│   ├── app.py               # Gradio frontend & main pipeline
-│   ├── utils.py             # Model loaders and helpers
-│   ├── classification/      # Tumor classification module
-│   │   ├── __init__.py
-│   │   └── transunet.py     # TransUNetClassifier
-│   ├── segmentation/        # Tumor segmentation module
-│   │   ├── __init__.py
-│   │   └── unet.py          # U-Net definition + metrics
-│   └── report/              # LLM report generation
-│       ├── __init__.py
-│       └── generator.py     # MRI report functions
-└── notebooks/               # Jupyter notebooks for training & experiments
-    ├── Tumor_Classification_Transunet_code.ipynb
-    ├── Tumor_Segmentation_code.ipynb
-    ├── Generate_Reports.ipynb
-    ├── LLM_Train_Model.ipynb
-    └── Model_Performance_Comparison.ipynb
-
-
-```text
-AI-Powered-Radiology-Assistant/
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── .gitignore
 ├── download_weights.py        # (optional) fetch model weights automatically
 ├── src/                       # all application code in one place
 │   ├── __init__.py
@@ -72,3 +44,21 @@ AI-Powered-Radiology-Assistant/
     ├── LLM_Train_Model.ipynb
     └── Model_Performance_Comparison.ipynb
 ```
+
+## Installation
+1. Clone this repository:
+```text
+git clone https://github.com/your-username/AI-Powered-Radiology-Assistant.git
+cd AI-Powered-Radiology-Assistant
+```
+
+2. Install Python dependencies:
+```text
+pip install -r requirements.txt
+```
+
+3. (Optional) Download pre-trained weights:
+```text
+python download_weights.py
+```
+
