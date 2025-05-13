@@ -6,15 +6,21 @@ AI-Powered-Radiology-Assistant/
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
-├── app.py
-├── checkpoints/
-│   ├── transunet_classifier.pth
-│   ├── unet_segmentation.pth
-│   └── lora_weights/
-├── Tumor_Classification_Transunet.py
-├── Tumor_Segmentation_code.py
-├── Generate_Reports.py
-└── notebooks/  
+├── download_weights.py        # (optional) fetch model weights automatically
+├── src/                       # all application code in one place
+│   ├── __init__.py
+│   ├── app.py                 # Gradio interface & main pipeline
+│   ├── utils.py               # helper functions (model loading, downloads)
+│   ├── classification/        # tumor classification module
+│   │   ├── __init__.py
+│   │   └── transunet.py       # TransUNetClassifier definition
+│   ├── segmentation/          # tumor segmentation module
+│   │   ├── __init__.py
+│   │   └── unet.py            # build_unet, metrics (dice, iou)
+│   └── report/                # report-generation logic
+│       ├── __init__.py
+│       └── generator.py       # extract_structured_info, LLM wrapper
+└── notebooks/                 # Jupyter notebooks for training & experiments
     ├── Tumor_Classification_Transunet_code.ipynb
     ├── Tumor_Segmentation_code.ipynb
     ├── Generate_Reports.ipynb
