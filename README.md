@@ -14,7 +14,7 @@ AI-Powered-Radiology-Assistant/
 ├── Tumor_Classification_Transunet.py
 ├── Tumor_Segmentation_code.py
 ├── Generate_Reports.py
-├── notebooks/  
+└── notebooks/  
     ├── Tumor_Classification_Transunet_code.ipynb
     ├── Tumor_Segmentation_code.ipynb
     ├── Generate_Reports.ipynb
