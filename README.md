@@ -60,3 +60,13 @@ pip install -r requirements.txt
 python download_weights.py
 ```
 
+## Usage
+Launch the Gradio demo:
+```text
+python src/app.py
+```
+- Open the link in your browser.
+- Upload a brain MRI scan.
+- View classification result, segmentation mask, and AI-generated report.
+
+  
