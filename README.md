@@ -108,6 +108,8 @@ Please ensure that:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
+Dexin Sun
+- Email: ds4362@columbia.edu
 Tianshuai Gao
 - Email: tg2935@columbia.edu
 - GitHub: tianshuai-gao/AI-Powered-Radiology-Assistant
