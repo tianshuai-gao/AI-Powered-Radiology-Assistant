@@ -12,7 +12,6 @@ An end-to-end system that automates brain tumor diagnosis from MRI scans by comb
 - **Tumor Segmentation**: 2D U-Net to generate precise binary masks of tumor regions.  
 - **Structured Report Generation**: LoRA-fine-tuned LLaMA pipeline with prompt engineering (few-shot, instruction-based, role-based) to produce Findings, Risk Assessment, and Treatment Recommendations.  
 - **Lightweight Deployment**: 4-bit quantized Llama, modular codebase, Gradio interface for interactive use.  
-
 ---
 
 ## 📂 Repository Structure
@@ -73,7 +72,7 @@ python src/app.py
 
 ## Screenshots & Diagrams
 ### 1. Classification Pipeline
-![Classification Pipeline](images/classification_pipeline.png)
+![Classification Pipeline](image/classification_pipeline.png)
 
 
 ## Contributing
