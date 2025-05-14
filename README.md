@@ -76,15 +76,15 @@ python src/app.py
 — CNN + Transformer feature fusion for tumor type prediction.
 
 ### 2. **Segmentation Pipeline**  
-![Segmentation Pipeline](images/segmentation_pipeline.png)  
+![Segmentation Pipeline](image/segmentation_pipeline.png)  
 — 2D U-Net encoder–decoder architecture.
 
 ### 3. **Sample Results**
-![Sample Results](images/sample_results.png)  
+![Sample Results](image/sample_results.png)  
 — Example MRI slices, ground truth masks, predicted masks, Dice scores.
 
 ### 4. **Report Generation Flow**  
-![Report Generation Flow](images/report_pipeline.png)  
+![Report Generation Flow](image/report_pipeline.png)  
 — LLaMA + LoRA + prompt engineering stages.
 
 ## Contributing
