@@ -71,9 +71,21 @@ python src/app.py
 - View classification result, segmentation mask, and AI-generated report.
 
 ## Screenshots & Diagrams
-### 1. Classification Pipeline
+### 1. **Classification Pipeline**
 ![Classification Pipeline](image/classification_pipeline.png)
+— CNN + Transformer feature fusion for tumor type prediction.
 
+### 2. **Segmentation Pipeline**  
+![Segmentation Pipeline](images/segmentation_pipeline.png)  
+— 2D U-Net encoder–decoder architecture.
+
+### 3. **Sample Results**
+![Sample Results](images/sample_results.png)  
+— Example MRI slices, ground truth masks, predicted masks, Dice scores.
+
+### 4. **Report Generation Flow**  
+![Report Generation Flow](images/report_pipeline.png)  
+— LLaMA + LoRA + prompt engineering stages.
 
 ## Contributing
 1. Fork the repository.
