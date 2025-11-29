@@ -4,7 +4,7 @@
 
 In this work, we implemented an AI-powered radiology assistant designed to automate brain tumor diagnosis through MRI image classification, segmentation, and structured report generation. The system features a two-stage deep learning pipeline that combines TransUNet for tumor classification and 2D-UNet for precise tumor segmentation. To enhance clinical interpretability, structured information such as tumor size, location, and mass effect is extracted from the segmentation masks. A fine-tuned LLaMA language model, optimized with LoRA, is then used to generate coherent and context-aware diagnostic reports. Prompt engineering strategies—including few-shot, instruction-based, and role-based prompting—further improve the quality and structure of the generated content. Evaluation results demonstrate high classification accuracy (0.94), strong segmentation performance (Dice 0.85, IoU 0.76), and significant gains in BLEU, ROUGE, and BERTScore for report generation. Our system delivers a robust end-to-end automated pipeline while reducing computational cost and enhancing clinical utility. Future work will focus on integrating follow-up recommendation mechanisms, multi-modal learning, and an interactive user interface to facilitate real-world clinical deployment.
 
-- 📄 **Project report (PDF)**: [`docs_radiology/STAT5293_Tianshuai Gao.pdf`](docs_radiology/STAT5293_Tianshuai Gao.pdf)
+- 📄 **Project report (PDF)**: [STAT5293_Tianshuai_Gao.pdf](docs_radiology/STAT5293_Tianshuai_Gao.pdf)
 
 ---
 
